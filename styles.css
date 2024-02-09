@@ -1,0 +1,505 @@
+/* Nuevos estilos para el encabezado con imagen de fondo */
+.header-background {
+    background: url('JSON-vs-XML.webp') center/cover no-repeat;
+    padding: 100px 0;
+}
+
+.header-background h1 {
+    font-size: 3em;
+}
+
+.header-background p {
+    font-size: 1.5em;
+}
+h1 {
+    color: #000; /* Color negro */
+}
+p {
+    color: #000; /* Color negro */
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.my-4 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #343a40;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #28a745;
+}
+
+/* Estilos específicos para los botones */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Estilos para la sección de Fase */
+.fase {
+    margin-top: 2rem;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los títulos de Fase */
+.fase h2 {
+    color: #007bff;
+}
+
+/* Estilos para las listas de Fase */
+.fase ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.fase li {
+    margin-bottom: 1rem;
+}
+
+/* Estilos para los enlaces de Fase */
+.fase a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fase a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos para enlaces */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li a {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; /* Color de fondo del footer */
+    color: white; /* Color del texto del footer */
+    padding: -10px 0; /* Espaciado interno del footer */
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+  }
+  
+  .socials-container {
+    display: flex;
+    gap: 20px; /* Espaciado entre los iconos sociales */
+  }
+  
+  .social {
+    color: white; /* Color de los iconos sociales */
+  }
+  .card {
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 25px;
+  gap: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+}
+
+/* for all social containers*/
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: .3s;
+}
+/* instagram*/
+.containerOne:hover {
+  background-color: #d62976;
+  transition-duration: .3s;
+}
+/* twitter*/
+.containerTwo:hover {
+  background-color: #00acee;
+  transition-duration: .3s;
+}
+/* linkdin*/
+.containerThree:hover {
+  background-color: #0072b1;
+  transition-duration: .3s;
+}
+/* Whatsapp*/
+.containerFour:hover {
+  background-color: #128C7E;
+  transition-duration: .3s;
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: .3s;
+}
+
+.socialSvg {
+  width: 17px;
+}
+
+.socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+    body {
+      background-color: #f8f9fa;
+    }
+    .container {
+      max-width: 800px;
+    }
+    .card {
+      margin-bottom: 30px;
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+    .card-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .list-group-item {
+      border: none;
+      padding: 5px 0;
+      color: #666;
+    }
+    .list-group-item:not(:last-child) {
+      border-bottom: 1px solid #ddd;
+    }
+    .glitch {
+        position: relative;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 1.2;
+        color: #fff;
+        letter-spacing: 5px;
+        z-index: 1;
+        animation: shift 1s ease-in-out infinite alternate;
+      }
+      
+      .glitch:before,
+      .glitch:after {
+        display: block;
+        content: attr(data-glitch);
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.8;
+      }
+      
+      .glitch:before {
+        animation: glitch 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+        color: #8b00ff;
+        z-index: -1;
+      }
+      
+      .glitch:after {
+        animation: glitch 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+        color: #00e571;
+        z-index: -2;
+      }
+      
+      @keyframes glitch {
+        0% {
+          transform: translate(0);
+        }
+      
+        20% {
+          transform: translate(-3px, 3px);
+        }
+      
+        40% {
+          transform: translate(-3px, -3px);
+        }
+      
+        60% {
+          transform: translate(3px, 3px);
+        }
+      
+        80% {
+          transform: translate(3px, -3px);
+        }
+      
+        to {
+          transform: translate(0);
+        }
+      }
+      
+      @keyframes shift {
+        0%, 40%, 44%, 58%, 61%, 65%, 69%, 73%, 100% {
+          transform: skewX(0deg);
+        }
+      
+        41% {
+          transform: skewX(10deg);
+        }
+      
+        42% {
+          transform: skewX(-10deg);
+        }
+      
+        59% {
+          transform: skewX(40deg) skewY(10deg);
+        }
+      
+        60% {
+          transform: skewX(-40deg) skewY(-10deg);
+        }
+      
+        63% {
+          transform: skewX(10deg) skewY(-5deg);
+        }
+      
+        70% {
+          transform: skewX(-50deg) skewY(-20deg);
+        }
+      
+        71% {
+          transform: skewX(10deg) skewY(-10deg);
+        }
+      }
+      
+      ul {
+        list-style: none;
+      }
+      
+      .example-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .example-2 .icon-content {
+        margin: 0 10px;
+        position: relative;
+      }
+      .example-2 .icon-content .tooltip {
+        position: absolute;
+        top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #fff;
+        padding: 6px 10px;
+        border-radius: 5px;
+        opacity: 0;
+        visibility: hidden;
+        font-size: 14px;
+        transition: all 0.3s ease;
+      }
+      .example-2 .icon-content:hover .tooltip {
+        opacity: 1;
+        visibility: visible;
+        top: -50px;
+      }
+      .example-2 .icon-content a {
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        color: #4d4d4d;
+        background-color: #fff;
+        transition: all 0.3s ease-in-out;
+      }
+      .example-2 .icon-content a:hover {
+        box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+      }
+      .example-2 .icon-content a svg {
+        position: relative;
+        z-index: 1;
+        width: 30px;
+        height: 30px;
+      }
+      .example-2 .icon-content a:hover {
+        color: white;
+      }
+      .example-2 .icon-content a .filled {
+        position: absolute;
+        top: auto;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background-color: #000;
+        transition: all 0.3s ease-in-out;
+      }
+      .example-2 .icon-content a:hover .filled {
+        height: 100%;
+      }
+      .example-2 .icon-content a[data-social="spotify"] .filled,
+      .example-2 .icon-content a[data-social="spotify"] ~ .tooltip {
+        background-color: #1db954;
+      }
+      .example-2 .icon-content a[data-social="pinterest"] .filled,
+      .example-2 .icon-content a[data-social="pinterest"] ~ .tooltip {
+        background-color: #bd081c;
+      }
+      .example-2 .icon-content a[data-social="dribbble"] .filled,
+      .example-2 .icon-content a[data-social="dribbble"] ~ .tooltip {
+        background-color: #ea4c89;
+      }
+      .example-2 .icon-content a[data-social="telegram"] .filled,
+      .example-2 .icon-content a[data-social="telegram"] ~ .tooltip {
+        background-color: #0088cc;
+      }
+    h2 {
+        color: #7bb7fa; /* Color negro */
+    }
+
+    .sidebar {
+      background-color: #333;
+      width: 250px;
+      height: 100%;
+      position: fixed;
+      left: 0;
+      top: 0;
+      padding: 20px;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+    
+    .sidebar-heading {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    
+    .sidebar-section {
+      margin-bottom: 30px;
+    }
+    
+    .sidebar-section ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .sidebar-section ul li {
+      margin-bottom: 10px;
+    }
+    
+    .sidebar-section ul li a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    
+    .sidebar-section ul li a:hover {
+      color: #aaa;
+    }
+    h3 {
+        color: #040405; /* Color negro */
+    }
